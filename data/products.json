@@ -1,0 +1,16 @@
+[
+    {
+      "id": "nkdyp01",
+      "name": "スキャンパー",
+      "image": "products/nkdyp01/images/main.jpg",
+      "summary": "軽めのフィーリングでぐりぐり動く",
+      "booth": "https://nkd.booth.pm/"
+    },
+    {
+      "id": "nkdyp00",
+      "name": "ストレイド",
+      "image": "products/nkdyp02/images/main.jpg",
+      "summary": "重ためフィーリングのずっしり系",
+      "booth": "https://nkd.booth.pm/"
+    }
+  ]
