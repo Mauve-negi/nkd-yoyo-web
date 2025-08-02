@@ -1,9 +1,18 @@
+/* 共通スタイル（モバイルファースト） */
 body {
     font-family: 'MS Gothic', monospace;
     background-color: #fdf6e3;
     color: #333;
     text-align: center;
     padding: 2rem;
+    margin: 0;
+    font-size: 16px;
+  }
+  
+  .logo {
+    max-width: 90%;
+    height: auto;
+    margin: 2rem 0;
   }
   
   a {
@@ -13,4 +22,25 @@ body {
   
   a:hover {
     text-decoration: underline;
+  }
+  
+  .note {
+    margin-top: 3em;
+    font-size: 0.8em;
+  }
+  
+  /* PC用スタイル（768px以上） */
+  @media screen and (min-width: 768px) {
+    body {
+      font-size: 18px;
+      padding: 4rem;
+    }
+  
+    .logo {
+      max-width: 300px;
+    }
+  
+    .note {
+      font-size: 0.9em;
+    }
   }
