@@ -1,0 +1,16 @@
+body {
+    font-family: 'MS Gothic', monospace;
+    background-color: #fdf6e3;
+    color: #333;
+    text-align: center;
+    padding: 2rem;
+  }
+  
+  a {
+    color: #e60033;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
